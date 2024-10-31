@@ -1,0 +1,50 @@
+#conteneur {
+    display: grid;
+    margin: auto;
+    max-width: 500px;
+    grid-template-areas:
+        "header  header  header  header"
+        "nav     nav     nav     nav"
+        "aside   main    main    main"
+        "aside   main    main    main"
+        "footer  footer  footer  footer";
+}
+
+header {
+    grid-area: header;
+    background-color: aquamarine;
+    padding: 20px;
+    margin: 1px;
+
+}
+
+nav { 
+    grid-area: nav;
+    background-color: aquamarine;
+    padding: 20px;
+    margin: 1px;
+
+}
+
+aside {
+    grid-area: aside;
+    background-color: aquamarine;
+    padding: 20px;
+    margin: 1px;
+    height: 300px;
+}
+
+main {
+    grid-area: main;
+    background-color: aquamarine;
+    padding: 20px;
+    margin: 1px;
+    height: 300px;
+}
+
+footer {
+    grid-area: footer;
+    background-color: aquamarine;
+    padding: 20px;    
+    margin: 1px;
+}

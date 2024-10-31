@@ -1,0 +1,61 @@
+.puzzle{
+    background-color: grey;
+    display: grid;    
+    max-width: 1000px;
+    max-height: 1000px;
+    grid-template-areas: 
+        "a a b c"
+        "d e e c"
+        "f g h h"
+        "f i i j";
+}
+#piece01{
+    grid-area: a;
+    grid-template-rows: repeat(2, 25%);
+    grid-template-columns: repeat(1, 25%);
+}
+#piece02{
+    grid-area: b;
+    grid-template-columns: repeat(1, 25%);
+    grid-template-rows: repeat(1, 25%);
+}
+#piece03{
+    grid-area: c;
+    grid-template-columns: repeat(2, 25%);
+    grid-template-rows: repeat(1, 25%);
+}
+#piece04{
+    grid-area: d;
+    grid-template-columns: repeat(1, 25%);
+    grid-template-rows: repeat(1, 25%);
+}
+#piece05{
+    grid-area: e;
+    grid-template-columns: repeat(1, 25%);
+    grid-template-rows: repeat(2, 25%);
+}
+#piece06{
+    grid-area: f;
+    grid-template-columns: repeat(2, 25%);
+    grid-template-rows: repeat(1, 25%);
+}
+#piece07{
+    grid-area: g;
+    grid-template-columns: repeat(1, 25%);
+    grid-template-rows: repeat(1, 25%);
+}
+#piece08{
+    grid-area: h;
+    grid-template-columns: repeat(1, 25%);
+    grid-template-rows: repeat(2, 25%);
+}
+#piece09{
+    grid-area: i;
+    grid-template-columns: repeat(1, 25%);
+    grid-template-rows: repeat(2, 25%);
+}
+#piece10{
+    grid-area: j;
+    grid-template-columns: repeat(1, 25%);
+    grid-template-rows: repeat(1, 25%);
+}
